@@ -1,5 +1,5 @@
 ## Set working directory to the folder containing the count matrix and sample metadata
-setwd("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/LIM15/diff_sites_fev23")
+setwd("/path/to/project/diff_sites_fev23")
 library("edgeR")
 library("limma")
 library("writexl")
@@ -14,7 +14,7 @@ library(tximport)
 library(AnnotationDbi)
 library(ggbiplot)
 
-#txdb <- loadDb(file = "/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/txdb.gencode39.sqlite")
+#txdb <- loadDb(file = "/path/to/bioinfo/R/txdb.gencode39.sqlite")
 ## Read gene-level count matrix (rows = genes, columns = samples) produced by the RNA-seq pipeline
 counts <- read.table("counts_hisat_refSeq.tsv", header=1, sep="\t",row.names = 1)
 
@@ -452,13 +452,13 @@ library(GSEABase)
 ## GMT files obtained from the MSigDB resource
 ## downloaded from https://www.gsea-msigdb.org/gsea/msigdb/mouse_geneset_resources.jsp
 
-m1 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c1.all.v7.5.1.symbols.gmt.txt") ## positional
-m2 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c2.all.v7.5.1.symbols.gmt.txt") ## curated
-m3 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c3.all.v7.5.1.symbols.gmt.txt") ## regulatory
-m4 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c4.all.v7.5.1.symbols.gmt.txt") ## Tumor ontoogy
-m5 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c5.all.v7.5.1.symbols.gmt.txt") ## GO
-m8 <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/c8.all.v7.5.1.symbols.gmt.txt") ## cell type
-mh <- getGmt("/Users/amlerario/amlerario@alumni.usp.br - Google Drive/My Drive/bioinfo/R/GSVA_database/Homo/h.all.v7.5.1.symbols.gmt.txt") ## hallmark
+m1 <- getGmt("/path/to/GSVA_database/Homo/c1.all.v7.5.1.symbols.gmt.txt") ## positional
+m2 <- getGmt("/path/to/GSVA_database/Homo/c2.all.v7.5.1.symbols.gmt.txt") ## curated
+m3 <- getGmt("/path/to/GSVA_database/Homo/c3.all.v7.5.1.symbols.gmt.txt") ## regulatory
+m4 <- getGmt("/path/to/GSVA_database/Homo/c4.all.v7.5.1.symbols.gmt.txt") ## Tumor ontoogy
+m5 <- getGmt("/path/to/GSVA_database/Homo/c5.all.v7.5.1.symbols.gmt.txt") ## GO
+m8 <- getGmt("/path/to/GSVA_database/Homo/c8.all.v7.5.1.symbols.gmt.txt") ## cell type
+mh <- getGmt("/path/to/GSVA_database/Homo/h.all.v7.5.1.symbols.gmt.txt") ## hallmark
 
 #sapply(strsplit(substr(rownames(mat2.plot),1,18)[res.clust$cluster==as.character(i)], split=";"), function(x) x[1])
 
