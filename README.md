@@ -261,9 +261,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 │   ├── ROBO_Pathway_Age_ZscoreHeatmap.R
 │   ├── IHC_Background_Removal.ijm
 │   ├── ImageJ_BatchCrop_SaveROIs.ijm
-│   ├── ImageJ_ColorDeconvolution_BatchMeasurements.ijm
-│   ├── IHC_Statistics_SummarisePerCase_And_GroupComparisons.R
-│   └── IHC_Statistics_Visualisation_BoxplotsAndCorrelations.R
+│   └── ImageJ_ColorDeconvolution_BatchMeasurements.ijm
 ├── data_headers/
 │   ├── AgeDifferentialExpression_Matrisome_Genes_ByTissue Headers.csv
 │   ├── TwoGroupDE_AllGenes_Parallelized Headers.csv
@@ -278,19 +276,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 │   ├── ROBO_Pathway_Age_ZscoreHeatmap Headers.csv
 │   ├── IHC_ROI_measurements_header.tsv
 │   └── IHC_SummaryPerCase_header.tsv
-├── figure_source_data/
-│   ├── FigureX_DE_results.tsv
-│   ├── FigureY_GSVA_scores.tsv
-│   ├── FigureZ_ICA_components.tsv
-│   ├── FigureIHC_A_Boxplots_PerRegion_Stain.tsv
-│   ├── FigureIHC_B_Correlations_StainVsRNAseq.tsv
-├── output_examples/
-│   ├── Example_DE_results_AgeDE.tsv
-│   ├── Example_DE_results_BrainSites.tsv
-│   ├── Example_IHC_ROI_measurements_subset.tsv
-│   ├── Example_IHC_SummaryPerCase_subset.tsv
-│   └── Example_heatmap_annotation_files.tsv
-└── README_v3.md
+└── README.md
 
 ### Code files
 
