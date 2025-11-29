@@ -1,4 +1,4 @@
-# Repository: Statistical analysis code for RNA-seq, immunohistochemistry (IHC) and graph production
+<img width="1083" height="416" alt="image" src="https://github.com/user-attachments/assets/2947adf9-3c74-4c5c-b0de-201f56f9ad6e" /># Repository: Statistical analysis code for RNA-seq, immunohistochemistry (IHC) and graph production
 
 ## Title of the study
 
@@ -250,7 +250,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 ---
 
 ## Repository structure and file overview
-
+```text
 ├── Code/
 │   ├── Statistics IHQ/
 │   │   ├── IHC_Background_Removal.ijm
@@ -284,7 +284,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 │       ├── Matrisome_Zscore_Heatmap_BrainSites Headers.csv
 │       └── GTEx_Age_Lollipop_ByMatrisomeType Headers.csv
 └── README_v3.md
-
+```
 ### Code files
 
 Below we summarise the purpose of each script. All scripts are **annotated with comments explaining the rationale** for each analysis step. Where necessary, the code has been structured to make the implementation as clear as possible.
