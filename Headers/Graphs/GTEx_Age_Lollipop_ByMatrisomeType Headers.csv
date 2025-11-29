@@ -1,0 +1,7 @@
+﻿gene,Matrisome_group,Matrisome_type,p_value,p_value_adjusted,Fishers_combined_p
+COL25A1,Core matrisome,Collagens,0.000730031,0.017970878,3.21564E-05
+RSPO3,Core matrisome,ECM Glycoproteins,0.00158347,0.025947544,3.95314E-06
+PCSK5,Matrisome-associated,ECM Regulators,0.000730031,0.017970878,4.94378E-06
+SEMA5A,Matrisome-associated,ECM-affiliated Proteins,0.000730031,0.017970878,2.06514E-06
+VCAN,Core matrisome,Proteoglycans,0.000730031,0.017970878,7.73986E-06
+GDF11,Matrisome-associated,Secreted Factors,0.001081894,0.021962439,1.02172E-05
