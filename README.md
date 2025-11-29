@@ -58,7 +58,11 @@ This repository is designed so that, once equivalent raw or count-level data and
 
 ### Header files: structure and units
 
+
 To document the expected input format, we provide header files in `data_headers/`. These files contain either the header row alone or the header row plus a few anonymised/example rows. Below we describe the main headers and corresponding units.
+
+Note that we do not provide separate header-only files for the original GTEx count matrices or sample attribute tables, because the files used in our analyses are identical to those publicly distributed through the GTEx portal and can be downloaded directly from that resource with their native headers intact.
+
 
 #### RNA-seq header files
 
