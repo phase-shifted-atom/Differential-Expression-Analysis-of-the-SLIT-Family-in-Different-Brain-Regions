@@ -1,5 +1,3 @@
-<img width="1083" height="416" alt="image" src="https://github.com/user-attachments/assets/2947adf9-3c74-4c5c-b0de-201f56f9ad6e" /># Repository: Statistical analysis code for RNA-seq, immunohistochemistry (IHC) and graph production
-
 ## Title of the study
 
 **Differential Expression Analysis of the SLIT Family in Different Brain Regions**
