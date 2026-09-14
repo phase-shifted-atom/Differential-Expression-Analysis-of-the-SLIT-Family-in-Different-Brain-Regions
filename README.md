@@ -236,6 +236,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 
 ## Repository structure and file overview
 
+```text
 ├── Code/
 │   ├── Statistics IHQ/
 │   │   ├── IHC_Background_Removal.ijm
@@ -269,6 +270,7 @@ All analyses were performed using **R** and **ImageJ/Fiji**, with additional gra
 │       ├── Matrisome_Zscore_Heatmap_BrainSites_Headers.csv
 │       └── GTEx_Age_Lollipop_ByMatrisomeType_Headers.csv
 └── README_v3.md
+```
 
 ### Code files
 
